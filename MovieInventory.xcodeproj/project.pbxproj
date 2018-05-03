@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		4B5BF4FC2099AA990005A5D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BF4FB2099AA990005A5D3 /* AppDelegate.swift */; };
-		4B5BF4FE2099AA990005A5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BF4FD2099AA990005A5D3 /* ViewController.swift */; };
+		4B5BF4FE2099AA990005A5D3 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BF4FD2099AA990005A5D3 /* ScannerViewController.swift */; };
 		4B5BF5012099AA990005A5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5BF4FF2099AA990005A5D3 /* Main.storyboard */; };
 		4B5BF5032099AA9A0005A5D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5BF5022099AA9A0005A5D3 /* Assets.xcassets */; };
 		4B5BF5062099AA9A0005A5D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5BF5042099AA9A0005A5D3 /* LaunchScreen.storyboard */; };
+		4B5BF50E2099B80A0005A5D3 /* BarcodeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BF50D2099B80A0005A5D3 /* BarcodeAPI.swift */; };
+		4B5BF5102099C0BE0005A5D3 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BF50F2099C0BE0005A5D3 /* Movie.swift */; };
+		4B5BF512209A53D50005A5D3 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BF511209A53D50005A5D3 /* MovieTableViewCell.swift */; };
+		4B5BF514209A59BE0005A5D3 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BF513209A59BE0005A5D3 /* MovieTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B5BF4F82099AA990005A5D3 /* MovieInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5BF4FB2099AA990005A5D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B5BF4FD2099AA990005A5D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B5BF4FD2099AA990005A5D3 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		4B5BF5002099AA990005A5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B5BF5022099AA9A0005A5D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B5BF5052099AA9A0005A5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B5BF5072099AA9A0005A5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5BF50D2099B80A0005A5D3 /* BarcodeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeAPI.swift; sourceTree = "<group>"; };
+		4B5BF50F2099C0BE0005A5D3 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		4B5BF511209A53D50005A5D3 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		4B5BF513209A59BE0005A5D3 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				4B5BF4FB2099AA990005A5D3 /* AppDelegate.swift */,
-				4B5BF4FD2099AA990005A5D3 /* ViewController.swift */,
+				4B5BF4FD2099AA990005A5D3 /* ScannerViewController.swift */,
+				4B5BF50D2099B80A0005A5D3 /* BarcodeAPI.swift */,
+				4B5BF50F2099C0BE0005A5D3 /* Movie.swift */,
+				4B5BF511209A53D50005A5D3 /* MovieTableViewCell.swift */,
+				4B5BF513209A59BE0005A5D3 /* MovieTableViewController.swift */,
 				4B5BF4FF2099AA990005A5D3 /* Main.storyboard */,
 				4B5BF5022099AA9A0005A5D3 /* Assets.xcassets */,
 				4B5BF5042099AA9A0005A5D3 /* LaunchScreen.storyboard */,
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B5BF4FE2099AA990005A5D3 /* ViewController.swift in Sources */,
+				4B5BF512209A53D50005A5D3 /* MovieTableViewCell.swift in Sources */,
+				4B5BF4FE2099AA990005A5D3 /* ScannerViewController.swift in Sources */,
+				4B5BF514209A59BE0005A5D3 /* MovieTableViewController.swift in Sources */,
+				4B5BF50E2099B80A0005A5D3 /* BarcodeAPI.swift in Sources */,
+				4B5BF5102099C0BE0005A5D3 /* Movie.swift in Sources */,
 				4B5BF4FC2099AA990005A5D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PTXX5L4H93;
 				INFOPLIST_FILE = MovieInventory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PTXX5L4H93;
 				INFOPLIST_FILE = MovieInventory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
